@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/navigation_home">
+
+    <fragment
+            android:id="@+id/navigation_home"
+            android:name="com.example.desafio.ui.reccomendations.ReccomendationsFragment"
+            android:label="@string/title_new"
+            tools:layout="@layout/fragment_home"/>
+
+    <fragment
+            android:id="@+id/navigation_notifications"
+            android:name="com.example.desafio.ui.shopping.NotificationsFragment"
+            android:label="@string/title_shopping"
+            tools:layout="@layout/fragment_notifications"/>
+    <fragment android:id="@+id/detailsFragment" android:name="com.example.desafio.ui.details.DetailsFragment"
+              android:label="Detalhes" tools:layout="@layout/fragment_details"/>
+    <fragment android:id="@+id/checkoutFragment" android:name="com.example.desafio.ui.checkout.CheckoutFragment"
+              android:label="Pedido" tools:layout="@layout/fragment_checkout"/>
+</navigation>

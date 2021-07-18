@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:padding="5dp" android:id="@+id/comicButton"
+              android:clickable="true" android:focusable="true">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="235dp">
+        <ImageView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:id="@+id/coverImageHz"
+                android:scaleType="centerCrop"/>
+        <TextView
+                android:text="@string/mock_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/titleComicHz" android:gravity="center"
+                android:textColor="@android:color/secondary_text_light" android:textSize="14sp"
+                android:lines="1" android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>

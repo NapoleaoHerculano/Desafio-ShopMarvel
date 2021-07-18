@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/searchFragment"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:clickable="true"
+              android:focusable="true"
+              android:background="?android:attr/selectableItemBackground"
+              android:elevation="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:background="@android:color/white"
+            android:elevation="2dp">
+
+        <TextView
+                android:id="@+id/textPriceCart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/mock_price"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageComicCart"
+                app:layout_constraintTop_toBottomOf="@+id/textQuantCart"
+                android:layout_marginTop="8dp"/>
+
+        <TextView
+                android:id="@+id/textTitleCart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/mock_title"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageComicCart"
+                app:layout_constraintTop_toTopOf="@+id/imageComicCart"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.29000002"/>
+        <ImageView
+                android:id="@+id/imageComicCart"
+                android:layout_width="100dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" android:contentDescription="@string/mock_title"/>
+        <TextView
+                android:text="@string/label_quant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/textQuantCart"
+                app:layout_constraintStart_toStartOf="@+id/textTitleCart"
+                app:layout_constraintTop_toBottomOf="@+id/textTitleCart"
+                android:layout_marginTop="8dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

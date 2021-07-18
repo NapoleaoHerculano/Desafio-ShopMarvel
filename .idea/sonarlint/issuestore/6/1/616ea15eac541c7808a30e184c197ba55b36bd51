@@ -1,0 +1,19 @@
+
+‚
+java:S1450"`Remove the "comicDetailsTitle" field and declare it as a local variable in the relevant methods.(ËëÌÿûÿÿÿÿ8âŒ¬Ï«/
+£
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(›Õäšûÿÿÿÿ8™šÄÎ«/
+ˆ
+java:S1450"fRemove the "comicDetailsDescription" field and declare it as a local variable in the relevant methods.(ÏàÂùÿÿÿÿ8½…”Ï«/
+‚
+java:S1450"`Remove the "comicDetailsImage" field and declare it as a local variable in the relevant methods.(şí€Óùÿÿÿÿ8ŞçÖÏ«/
+E
+java:S1604H"(Make this anonymous inner class a lambda(êÂäŒ8‘Ó€Ö«/
+}
+java:S1450"`Remove the "comicDetailsPrice" field and declare it as a local variable in the relevant methods.(™Ù„ï8±’Ï«/
+r
+java:S1450"VRemove the "spinner" field and declare it as a local variable in the relevant methods.(Ï‰¯8ï²–Ï«/
+G
+java:S1068"+Remove this unused "context" private field.(êİç8À€äË«/
+u
+java:S1450"XRemove the "addToCart" field and declare it as a local variable in the relevant methods.(¹—‹‹8‘Ó€Ö«/

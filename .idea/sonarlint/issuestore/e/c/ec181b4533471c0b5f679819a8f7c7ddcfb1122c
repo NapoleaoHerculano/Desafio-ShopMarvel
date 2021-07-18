@@ -1,0 +1,9 @@
+
+X	java:S1250"<This block of commented-out lines of code should be removed.(êŒêœ8†ÇÏÖ«/
+W	java:S125?"<This block of commented-out lines of code should be removed.(€Š¡U8†ÇÏÖ«/
+J
+java:S1068"-Remove this unused "comicToDB" private field.(üá…Ü8†ÇÏÖ«/
+I
+java:S1068",Remove this unused "comicDAO" private field.(üÕ—”8†ÇÏÖ«/
+t
+java:S1450"WRemove the "comicDAO" field and declare it as a local variable in the relevant methods.(üÕ—”8¡¼ĞÖ«/

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">desafio</string>
+    <string name="title_new">Loja</string>
+    <string name="title_search">Buscar</string>
+    <string name="title_shopping">Carrinho</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mock_title">Marvel: Return Heroes #01</string>
+    <string name="pedido_realizado">Pedido realizado!</string>
+    <string name="mock_price">$ 5.99</string>
+    <string name="text_button_add_to_cart">Adicionar ao carrinho</string>
+    <string name="label_description">Descrição</string>
+    <string name="mock_description">An epic, oversize slugfest between the Squadron Supreme and an otherworldly group of
+        Avengers for the final fate of the whacked-out world of HEROES REBORN.
+    </string>
+    <string name="label_xmen">X-Men</string>
+    <string name="label_avengers">Avengers</string>
+    <string name="label_captain">Captain America</string>
+    <string name="label_panther">Black Panther</string>
+    <string name="label_iron">Iron Man</string>
+    <string name="text_button_close">Close Order</string>
+    <string name="text_button_apply">Apply</string>
+    <string name="coupon">Coupon</string>
+    <string name="mock_price_total">U$ 150.00</string>
+    <string name="label_total">Total:</string>
+    <string name="label_quant">Quantidade</string>
+</resources>
